@@ -250,6 +250,10 @@ a {
    font-size: smaller;
 }
 
+.section2 {
+    margin-left: 40px;
+}
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 230px;
@@ -275,5 +279,9 @@ a {
     #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
+    }
+
+    .section2 {
+    margin-left: 5px;
     }
 }
