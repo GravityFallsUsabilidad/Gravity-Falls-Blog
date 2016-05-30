@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Gravity Falls Parallax</title>
+  <link rel="stylesheet" type="text/css" href="css/Style.css">
+
+</head>
+
+<body>
+
+  <section class="container">
+    <ul id="scene" class="scene"> <!-- inicia escena -->
+
+      <li class="layer" data-depth="0.00">
+        <div class="background"></div>
+      </li>
+
+      <li class="layer" data-depth="12.00">
+        <div class="bill"><img src="images/bill.png"></div>
+      </li>
+
+      <li class="layer" data-depth="0.10">
+        <div class="logo"><img src="images/logo.png"></div>
+      </li> 
+
+      <li class="layer" data-depth="0.05">
+        <div class="soos"><img src="images/soos.png"></div>
+      </li>
+
+      <li class="layer" data-depth="0.02">
+        <div class="ford"><img src="images/ford.png"></div>
+      </li>    
+
+      <li class="layer" data-depth="0.03">
+        <div class="wendy"><img src="images/wendy.png"></div>
+      </li>
+
+      <li class="layer" data-depth="0.20">
+        <div class="gnome"><img src="images/gnome.png"></div>
+      </li>
+
+      <li class="layer" data-depth="2.00">
+        <div class="grunkle"><img src="images/grunkle.png"></div>
+      </li>
+
+      <li class="layer" data-depth="0.01">
+        <div class="grass"><img src="images/grass.png"></div>
+      </li>
+
+      <li class="layer" data-depth="0.60">
+        <div class="dipper"><img src="images/dipper.png"></div>
+      </li>
+
+      <li class="layer" data-depth="0.65">
+        <div class="mabel"><img src="images/mabel.png"></div>
+      </li> 
+
+    </ul> <!-- termina escena -->
+  </section>
+
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery.parallax.min.js"></script>
+
+<script type="text/javascript">
+  $(function(){
+    $('#scene').parallax();
+  });
+</script>
+
+</html>

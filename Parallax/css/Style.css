@@ -1,0 +1,140 @@
+* {margin: 0; padding: 0;}
+
+#container-scene {
+	display: none;
+}
+
+@media(min-width:768px) {
+
+	#container-scene {
+		display: inline;
+		zoom: 0.6;
+        -moz-transform: scale(0.6);
+	}
+}
+
+@media(min-width:1280px) {
+	#container-scene {
+		display: inline;
+		zoom: 1;
+        -moz-transform: scale(1);
+	}
+}
+
+.container-scene {
+	width: 1280px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	margin: 50px auto;
+	margin-top: 0px;
+	border: 10px solid black;
+	background: black;
+}
+
+.backgroundimage {
+	background-image: url(../images/shack.png);
+	width: 1280px;
+	height: 500px;
+}
+
+.layer div {
+	position: absolute;
+}
+
+.logo {
+	top: -25px;
+	right: 640px;
+}
+
+.logo > img {
+	width: 558px;
+	height: 322.4px;
+}
+
+.dipper {
+	top: 45px;
+	right: 50px;
+}
+
+.dipper > img {
+	width: 336px;
+	height: 594.5px
+}
+
+.mabel {
+	top: 100px;
+	left: 50px;
+} 
+
+.mabel > img {
+	width: 356px;
+	height: 640px;
+}
+
+.soos {
+	top: 300px;
+	right: 380px;
+}
+
+.soos > img {
+	width: 90px;
+	height: 149.707px;
+}
+
+.bill {
+	top: 5px;
+	right: -450px;
+}
+
+.bill > img {
+	width: 204.8px;
+	height: 115.2px;
+}
+
+.ford {
+	top: 300px;
+	right: 800px;
+}
+
+.ford > img {
+	width: 70.4px;
+	height: 143.84px;
+}
+
+.grunkle {
+	top: 300px;
+	right: 300px;
+}
+
+.grunkle > img {
+	width: 253.25px;
+	height: 197.25px;
+}
+
+.wendy {
+	top: 330px;
+	left: 740px;
+}
+
+.wendy > img {
+	width: 45.449px;
+	height: 135px;
+}
+
+.gnome {
+	top: 400px;
+	right: -25px;
+}
+
+.gnome > img {
+	width: 30px;
+	height: 48.118px;
+}
+
+.grass {
+	top: 470px;
+	left: -250px;
+}
+
+}
